@@ -1,0 +1,9 @@
+import 2_categories_bicategories_double_categories_lemma_canonical_lane_mathlib.GateLemmas
+namespace HautevilleHouse
+namespace 2_categories_bicategories_double_categories_lemma_canonical_lane_mathlib
+structure ConstrainedTheoremClosure where
+  admissible :: intro :: constraint :: consequence :: proof ::
+theorem canonical : ConstrainedTheoremClosure :=
+  ConstrainedTheoremClosure.intro
+end 2_categories_bicategories_double_categories_lemma_canonical_lane_mathlib
+end HautevilleHouse
